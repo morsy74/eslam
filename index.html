@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #ebeef0!important;
+            font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+        }
+        .container{
+            padding: 0 200px 0 200px;
+        }
+        #logo{
+            text-align: center;
+        }
+        img{
+            border-radius: 15px;
+            margin-top: 50px;
+            width: 550px;
+            height: 240px;
+        }
+        #covid{
+            padding-top: 23px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        #p1{
+            text-align: center;
+            padding: 10px;
+            color: red;
+            /* font-family: Arial; */
+            font-size:25px;
+            border-radius: 20px;
+        }
+        #p2{
+            text-align: center;
+            color: white;
+            padding: 10px;
+            /* font-family: Arial; */
+            font-size:25px;
+            background-color:rgb(76, 159, 76);
+            border-radius: 10px;
+            width: 100px;
+            margin-left: 500px;
+            margin-bottom: 40px
+        }
+        #p3{
+            /* font-family: Arial; */
+            font-size:20px;
+            font-weight:bold;
+            color: #444;
+        }
+        #p4{
+            margin-top: -15px;
+            font-size: 20px;
+            color: #003289;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        #box{
+            width: 100%;
+            height: 600px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px 15px rgb(53 54 102 / 20%);
+            text-align: center;
+            margin-top: 60px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            /* margin-right: -0.75rem;
+            margin-left: -0.75rem; */
+        }
+        .mb-5, .my-5 {
+             margin-bottom: 1rem!important;
+        }
+        /* @media (min-width: 768px) */
+        .col-md-4 {
+            flex: 0 0 33.3333333333%;
+            max-width: 33.3333333333%;
+        }
+        .row h3 {
+            color: #666!important;
+            font-size: 20px!important;
+            font-weight: 500!important;
+            padding: 0!important;
+            margin-bottom: -10px;
+        }
+        #NID{
+            font-size: 20px;
+            color: #003289;
+            font-weight: 500;
+            padding-bottom: auto;
+        }
+        #m{
+            margin-bottom: 10px;
+        }
+        #fhs {
+            text-transform: capitalize;
+            font-size: 20px!important;
+            color: #003289!important;
+            font-weight: 500!important;
+            /* padding-left: 50px; */
+            margin-left: 20px
+        }
+        .result {
+            background-color: #5cb85c;
+            color: #fff;
+            border: 5px solid #5cb85c;
+            border-radius: 10px!important;
+            text-align: center;
+            font-size: 25px;
+            padding: 10px 0;
+        }
+        a {
+           
+            color: #007bff;
+            text-decoration: none;
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id = "logo">
+            <img src="99.png">
+        </div>
+        <div id = "covid">
+            <p id = "p1">COVID-19 by RT-PCR</p>
+            <p id = "p2">Negative</p>
+        </div>
+        <div id = "patient">
+            <p id = "p3">Patient Name:</p>
+            <p id = "p4">ESLAM MOHAMED ABDEELWAHAB AHMED</p>
+        </div>
+        <div id = "box">
+            <div class="row">
+                <div class="col-md-4 col-6 mb-5", id = "m">
+                  <h3>MRN : </h3>
+                  <p id="IDWIDLAB">1114-5784</p>
+                </div>
+                <div class="col-md-4 col-6 mb-5">
+                  <h3>National Num : </h3>
+                  <p><span id="NID">30004201302951</span></p>
+                </div>
+                <div class="col-md-4 col-6 mb-5">
+                  <h3>Date Of Birth : </h3>
+                  <p><span id="NID">20–Apr–2000</span></p>
+                </div>
+                <div class="col-md-4 col-6 mb-5">
+                  <h3>Passport Num : </h3>
+                  <p><span id="NID">A22957957</span></p>
+                </div>
+                <div class="col-md-4 col-6 mb-5">
+                  <h3>Nationality : </h3>
+                  <p><span id="NID">Egyption</span></p>
+                </div>
+                <div class="col-md-4 col-6 mb-5">
+                  <h3>Gender : </h3>
+                  <p><span id="NID">Male / 22 / Years</span></p>
+                </div>
+                <div class="col-md-4 mb-5">
+                  <h3>Visit Code : </h3>
+                  <p><span id="NID">1218</span></p>
+                </div>
+                <div class="col-md-4 mb-5">
+                  <h3>Registration Date : </h3>
+                  <p><span id="NID">13-Aug-22 10:08:17 PM</span></p>
+                </div>
+                <div class="col-md-4 mb-5">
+                  <h3>Reporting Date : </h3>
+                  <p><span id="NID">14-Aug-22 10:12:00 Am</span></p>
+                  <p>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-5">
+                <h3>مسؤليه الفحص </h3>
+                <p><span id="fhs">المعمل مسؤول تماما عن الفحص وهذه مسؤوليه كامله عن نتيجه الفحص </span></p>
+                <p><span id="fhs"> وقد تم الفحص بتاريخه وصالح لمده 72 ساعه</span></p>
+              </div>
+        </div>
+        <input type="submit" name="Button2" value="Download" id="Button2" class="result"
+        class="btn btn-danger container-fluid wow fadeInUp animated" style="width:100%;" />
+    </div>
+    <nav>
+        <h7 class="copy_rights">
+          <br>
+          <br>
+          <br>
+          <div class="auto-style8" style="height: 30px; text-align: center ;  "> <a
+              href="https://www.facebook.com/Smart.Lab.System/" title=" ">Design by Smart lab System® 002 01017234165 </a>
+          </div>
+        </h7>
+      </nav>
+    
+</body>
+</html>
